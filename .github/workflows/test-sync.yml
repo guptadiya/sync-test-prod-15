@@ -60,7 +60,7 @@ jobs:
       - name: Configure vendor remote
         run: |
           git remote remove vendor || true
-          git remote add vendor https://github.com/guptadiya/sync-test-prod-15.git.git
+          git remote add vendor https://github.com/guptadiya/sync-test-prod-15.git
 
       - name: Fetch vendor main
         run: |
