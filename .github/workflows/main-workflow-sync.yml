@@ -1,8 +1,8 @@
 name: Vendor Sync
-on:
-  repository_dispatch:
-    types:
-      - vendor-main-updated
+# on:
+#   repository_dispatch:
+#     types:
+#       - vendor-main-updated
 
   workflow_dispatch:
 jobs:
